@@ -1,0 +1,70 @@
+.
+|____eda
+|____requirements.txt
+|____explainability
+|____modeling
+| |____2p_NCAAW1+_22-23_modelling.ipynb
+| |____2p_NCAAM1_22-23_modelling.ipynb
+| |____3p_NCAAM1_22-23_modelling.ipynb
+| |____3p_NCAAW1+_22-23_modelling.ipynb
+| |____recursive_feature_elimination.py
+|____README.md
+|____Inference
+| |____3p_NCAAM1_22-23_model.txt
+| |____Recommendation.ipynb
+| |____NCAAM1_22-23_threshold.csv
+| |____NCAAM1_5e875e684dc25ebee5af6c2b_recommendations.xlsx
+| |____Opportunity Star Classification.ipynb
+| |____3p_NCAAW1+_22-23_model.txt
+| |____NCAAW1+_618ade0180945020656b09d9_recommendations.xlsx
+| |____NCAAW1+_22-23_threshold.csv
+| |____2p_NCAAM1_22-23_model.txt
+| |____2p_NCAAW1+_22-23_model.txt
+|____feature_engineering
+| |____Dataset Creation NCAAW1+ 22-23.ipynb
+| |____feature_engineering_SA.py
+| |____data_reader.py
+| |____Dataset Creation NCAAM1 22-23.ipynb
+|____data
+| |____raw_data
+| |____processed_data
+| | |____NCAAW1+_22-23_stars.pickle
+| | |____NCAAM1_22-23_3P.pickle
+| | |____NCAAW1+_22-23_3P.pickle
+| | |____NCAAM1_22-23_stars.pickle
+| | |____NCAAM1_22-23_2P.pickle
+| | |____NCAAW1+_22-23_2P.pickle
+|____archived
+
+
+| |____raw_data
+| | |____NCAAM1
+| | | |____S-22-23
+| | | | |____NCAAM1 22-23 segment data.pickle
+| | | | |____NCAAM1 22-23 playerdictionary.pickle
+| | | | |____NCAAM1 22-23 gamesdf.pickle
+| | | | |____NCAAM1 22-23 segment player block and usage data.pickle
+| | | | |____NCAAM1 22-23 teamsdf.pickle
+| | | | |____NCAAM1 22-23 shotsdf.pickle
+| | | |____S-21-22
+| | | | |____NCAAM1 21-22 gamesdf.pickle
+| | | | |____NCAAM1 21-22 playerdictionary.pickle
+| | | | |____NCAAM1 21-22 segment data.pickle
+| | | | |____NCAAM1 21-22 segment player block and usage data.pickle
+| | | | |____NCAAM1 21-22 teamsdf.pickle
+| | | | |____NCAAM1 21-22 shotsdf.pickle
+| | |____NCAAW1+
+| | | |____S-22-23
+| | | | |____NCAAW1+ 22-23 shotsdf.pickle
+| | | | |____NCAAW1+ 22-23 teamsdf.pickle
+| | | | |____NCAAW1+ 22-23 segment player block and usage data.pickle
+| | | | |____NCAAW1+ 22-23 segment data.pickle
+| | | | |____NCAAW1+ 22-23 gamesdf.pickle
+| | | | |____NCAAW1+ 22-23 playerdictionary.pickle
+| | | |____S-21-22
+| | | | |____NCAAW1+ 21-22 shotsdf.pickle
+| | | | |____NCAAW1+ 21-22 teamsdf.pickle
+| | | | |____NCAAW1+ 21-22 segment player block and usage data.pickle
+| | | | |____NCAAW1+ 21-22 gamesdf.pickle
+| | | | |____NCAAW1+ 21-22 playerdictionary.pickle
+| | | | |____NCAAW1+ 21-22 segment data.pickle
