@@ -96,3 +96,11 @@ Post this step we performed multi-collinearity treatment, by iteratively removin
 |     LightGBM    |     Full Feature Set                                   |     51.1        |     60.2             |     50.9       |     55              |
 |     LightGBM    |     Most important features     (final model)          |     51.2        |     59.2             |     50.8       |     54.9            |
 |     LightGBM    |     Only including features with no   missing data     |     68.9        |     72.1             |     68.6       |     71.6            |
+
+
+### Sanity Check for the poor performing 3 pointer
+
+The 2 pointer model performs better than the 3 pointer model. This is not too surprising because the outcome of a 3point attempt is much more unpredictable. Moreover, variables that could have significant predictive value, like the distance between the shooter and the closest defender, are absent from our dataset. However, to ensure that our model has some predictive value, we conducted a sanity check, predicting 3 pointer probabilities for players with particularly bad and particularly good shooting percentages. Fortunately, there was a somewhat clear distinction between the two groups of players, as can be seen in the plot below
+
+<img width="500" alt="image" src="https://github.com/sakshamarora97/basketball-analytics-project/assets/62840042/0751b469-a3c7-4e3c-a667-dacb6f9d5725">
+
