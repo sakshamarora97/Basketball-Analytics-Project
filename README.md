@@ -98,9 +98,18 @@ Post this step we performed multi-collinearity treatment, by iteratively removin
 |     LightGBM    |     Only including features with no   missing data     |     68.9        |     72.1             |     68.6       |     71.6            |
 
 
-### Sanity Check for the poor performing 3 pointer
+### Sanity Check 1: Poor performing 3 pointer model
 
 The 2 pointer model performs better than the 3 pointer model. This is not too surprising because the outcome of a 3point attempt is much more unpredictable. Moreover, variables that could have significant predictive value, like the distance between the shooter and the closest defender, are absent from our dataset. However, to ensure that our model has some predictive value, we conducted a sanity check, predicting 3 pointer probabilities for players with particularly bad and particularly good shooting percentages. Fortunately, there was a somewhat clear distinction between the two groups of players, as can be seen in the plot below
 
 <img width="500" alt="image" src="https://github.com/sakshamarora97/basketball-analytics-project/assets/62840042/0751b469-a3c7-4e3c-a667-dacb6f9d5725">
+
+### Sanity Check 2: Feature Importance of the model
+
+<img width="364" alt="image" src="https://github.com/sakshamarora97/basketball-analytics-project/assets/62840042/b931bdef-7ac9-45f1-bdc4-5c173c311d8b">
+
+### Sanity Check 3: Plotting predicted probability distribution for Train and Test
+
+<img width="499" alt="image" src="https://github.com/sakshamarora97/basketball-analytics-project/assets/62840042/4915b736-de7a-419b-a663-e69250022787">
+
 
