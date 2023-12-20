@@ -130,11 +130,11 @@ Our approach is to group the shots attempted by player, zone, and shot type, and
 # Reproducible pipeline across leagues
 ## Overall Flow
 
-<img width="489" alt="image" src="https://github.com/sakshamarora97/basketball-analytics-project/assets/62840042/b542a417-cc60-4187-9eff-550058f887da">
+<img width="1200" alt="image" src="https://github.com/sakshamarora97/basketball-analytics-project/assets/62840042/b542a417-cc60-4187-9eff-550058f887da">
 
 The flow diagram below illustrates how the process works. As you can see from the visualization, we can skip the step of training the model if using pre-existing models
 
-<img width="510" alt="image" src="https://github.com/sakshamarora97/basketball-analytics-project/assets/62840042/af627add-b384-4a1e-bba5-9cacfdb7ba48">
+<img width="1400" alt="image" src="https://github.com/sakshamarora97/basketball-analytics-project/assets/62840042/af627add-b384-4a1e-bba5-9cacfdb7ba48">
 
 Folder Structure
 *	Eda: contains the initial exploration into the data (doesn’t need to be repeated)
